@@ -10,11 +10,12 @@ const routes: Routes = [
   },
   {
     path:'login',
-    component: LoginComponent
+    loadChildren: () => import ('./login/login.module').then(m => m.LoginModule)
   },
   {
     path:'addRequirment',
-    component: AddRequirementComponent
+    // canActivate: [Au]
+    loadChildren: () => import ('./add-requirement/add-requirement.module').then(m => m.AddRequirementModule)
   }
 ];
 
