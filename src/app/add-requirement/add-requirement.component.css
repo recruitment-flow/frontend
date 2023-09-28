@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+  }
+  body {
+    height: 100%;
+  }
+  .middle-container {
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+  }
+  .middle-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .butn {
+    background-color: rgb(83, 83, 226);
+    color: white;
+    border: 1px solid gray;
+  }
+  .cancelButton {
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown {
+    background-color: rgb(236, 237, 237);
+    width: 25%;
+    border: 1px solid rgb(213, 210, 210);
+  }
+  .header {
+    background-color: rgb(30, 30, 135);
+    padding: 20px;
+  }
+  .footer {
+    background-color: rgb(30, 30, 135);
+    padding: 35px;
+  }
+  .logo {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-right: 20%;
+  }
+  .inner-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+  .button {
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+  }
+  .input {
+    background-color: rgb(236, 237, 237);
+    border: 1px solid rgb(213, 210, 210);
+  }
+  .innerDetails {
+    padding: 10px;
+  }
+  .input {
+    width: 80px;
+    height: 14px;
+  }
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .payrate {
+    background-color: rgb(245, 247, 247);
+    padding: 2px;
+  }
+  
+  .select {
+    width: 200px;
+  }
+  .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+  }
+  .option {
+    padding: 5px;
+  }
+  .one {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .item {
+    width: 30%;
+    padding: 10px;
+  }
+  .item2 {
+    width: 30%;
+  }
+  .item3 {
+    width: 30%;
+  }
+  .item4 {
+    width: 30%;
+  }
+  .item5 {
+    width: 30%;
+  }
+  .two {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .three {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .four {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .five {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  

@@ -1,1 +1,207 @@
-<p>add-requirement works!</p>
+<div class="top-container">
+    <div class="header">
+      <span class="logo">Logo</span>
+      <button class="button">Home</button>
+      <button class="button">Job Posting</button>
+      <button class="button">Applicants</button>
+      <button class="button">Clients</button>
+      <button class="button">Vendors</button>
+      <button class="button">Leads</button>
+
+    </div>
+    <div class="middle-container">
+     <div class="middle-content">
+       <h3>New Job Postings</h3>
+       <div>
+        <button class="butn">Save as Draft</button>
+        <button class="butn">Save</button>
+        <button class="cancelButton">Cancel</button>
+       </div>
+     </div>
+      <div class="inner-container">
+        <label for="business">Business Unit</label>
+        <div>
+          <select class="dropdown" name="business" id="cars">
+            <option value="infoways">Infoways</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="innerDetails">
+          <h3>Job Details</h3>
+
+          <div class="flexContainer">
+            <div class="one">
+              <div class="item">
+              <label for="jobcode">Job Code *</label> <br />
+              <input type="text" id="jobcode" />
+            </div>
+            <div class="item">
+              <label for="jobtitle">Job Title *</label> <br />
+              <input type="text" id="jobtitle" />
+            </div>
+            <div class="item">
+              <label for="bill">Current Bill Rate/Salary *</label> <br />
+              <div>
+                <select name="bill">
+                  <option value="usd">USD</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <input type="text" class="input" />
+                <select name="bill">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <select name="bill">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+            </div>
+            </div>
+         <div class="two">
+             <div  class="item">
+              <label for="rate">Pay Rate/Salary *</label>
+              <div class="payrate" >
+                <div >
+                  <select name="bill">
+                  <option value="usd">USD</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <input type="text" class="input" />
+                <input type="text" class="input" /> 
+                </div>
+                <div>
+                  <select name="bill">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <select name="bill">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <label for="job">Remote Job</label>
+              <div class="checkbox">
+              <div>
+               
+                <input type="checkbox" id="'yes" />
+                 <label class="option" for="yes">yes</label>
+                </div>
+                <div>
+                <input type="checkbox" id="no" />
+                 <label class="option" for="no">no</label>
+                </div><div>
+                <input type="checkbox" id="hybrid" />
+                 <label class="option" for="hybrid">Hybrid</label>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <label for="states">States *</label> <br />
+            <select class="select" name="states">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+          </div>
+         </div>
+          <div class="three">
+            <div class="item" >
+            <label for="location">Location *</label> <br />
+            <input id="location" type="text" />
+          </div>
+          <div class="item" >
+            <label for="jobstatus">Job Status *</label> <br />
+            <select class="select" name="jobstatus">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+          </div>
+          <div class="item" >
+            <label for="jobtype">Job Type </label> <br />
+            <select class="select" name="jobtype">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+          </div>
+          </div>
+          <div class="four">
+            <div class="item" >
+            <label for="client">Client * </label> <br />
+            <select class="select" name="client">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+          </div>
+          <div class="item" >
+            <label for="clientm">Client Manager * </label> <br />
+            <select class="select" name="clientm">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+          </div>
+          <div class="item" >
+            <label for="br">BR# </label> <br />
+            <input id="br" type="text" />
+          </div>
+          </div>
+          
+          <div class="five">
+            <div class="item" >
+            <label for="duration">Duration * </label> <br />
+            <input id="duration" type="text" />
+          </div>
+          <div class="item" >
+            <label for="work">Work Authorization * </label><br />
+            <select class="select" name="work">
+                  <option value="">Select</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+          </div>
+          <div class="item" >
+            <label for="imode">Interview Mode * </label><br />
+            <input id="imode" type="text" />
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="inner-container">
+        <h3>Skills</h3>
+        <div class="item" >
+            <label for="skills">Primary Skills</label> <br />
+            <input id="skills" type="text" />
+          </div>
+          
+      </div>
+    </div>
+   
+  </div>
+   <div class="footer"></div>
